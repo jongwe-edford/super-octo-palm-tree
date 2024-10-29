@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agriculture Insurance Underwriting Form</title>
+  <link rel="stylesheet" href="(link unavailable)">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .card {
+      margin-bottom:
+        20px;
+      border:
+        none;
+      border-radius:
+        10px;
+      box-shadow:
+        0 0 10px rgba(0,
+          0,
+          0,
+          0.1);
+    }
+
+    .card-header {
+      border-radius:
+        10px 10px 0 0;
+      padding:
+        10px;
+    }
+
+    .card-body {
+      padding:
+        20px;
+    }
+
+    .form-group {
+      margin-bottom:
+        20px;
+    }
+
+    label {
+      font-weight:
+        bold;
+      margin-bottom:
+        10px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="number"],
+    textarea {
+      width:
+        100%;
+      padding:
+        10px;
+      margin-bottom:
+        20px;
+      border:
+        1px solid #ccc;
+      border-radius:
+        5px;
+    }
+
+    input[type="checkbox"] {
+      margin-right:
+        10px;
+    }
+
+    input[type="radio"] {
+      margin-right:
+        10px;
+    }
+
+    .btn-success {
+      background-color:
+        #008000;
+      color:
+        #fff;
+      padding:
+        10px 20px;
+      border:
+        none;
+      border-radius:
+        5px;
+      cursor:
+        pointer;
+    }
+
+    .btn-success:hover {
+      background-color:
+        #006400;
+    }
+
+    .text-success {
+      color:
+        #008000;
+    }
+
+    .bg-success {
+      background-color:
+        #008000;
+    }
+
+    This CSS code enhances the design of the form,
+    using Bootstrap classes and custom styles. Would you like me to modify or add anything?
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="text-center text-success">Insurance Underwriting Form</h1>
+      </div>
+    </div>
+    <form>
+      <!-- Section 1: Farm/Operation Information -->
+      <div class="card">
+        <div class="card-header bg-success text-white">
+          <h2>Farm/Operation Information</h2>
+        </div>
+        <div class="card-body">
+          <div class="form-group">
+            <label for="farm-name">Farm/Operation Name:</label>
+            <input type="text" id="farm-name" name="farm-name" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="operation-type">Type of Operation:</label>
+            <select id="operation-type" name="operation-type" class="form-control">
+              <option value="crop-farming">Crop Farming</option>
+              <option value="livestock-farming">Livestock Farming</option>
+              <option value="dairy-farming">Dairy Farming</option>
+              <option value="orchard-vineyard">Orchard/Vineyard</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 2: Crop Information -->
+      <div class="card">
+        <div class="card-header bg-success text-white">
+          <h2>Crop Information</h2>
+        </div>
+        <div class="card-body">
+          <div class="form-group">
+            <label for="crops-grown">Crops Grown:</label>
+            <textarea id="crops-grown" name="crops-grown" class="form-control"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="total-acreage">Total Acreage:</label>
+            <input type="number" id="total-acreage" name="total-acreage" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="irrigation-system">Irrigation System:</label>
+            <input type="checkbox" id="irrigation-system" name="irrigation-system">
+          </div>
+          <div class="form-group">
+            <label for="crop-storage">Crop Storage Facilities:</label>
+            <input type="checkbox" id="crop-storage" name="crop-storage">
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 3: Livestock Information -->
+      <div class="card">
+        <div class="card-header bg-success text-white">
+          <h2>Livestock Information</h2>
+        </div>
+        <div class="card-body">
+          <div class="form-group">
+            <label for="livestock-type">Type of Livestock:</label>
+            <select id="livestock-type" name="livestock-type" class="form-control">
+              <option value="cattle">Cattle</option>
+              <option value="swine">Swine</option>
+              <option value="poultry">Poultry</option>
+              <option value="sheep-goats">Sheep/Goats</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="number-of-head">Number of Head:</label>
+            <input type="number" id="number-of-head" name="number-of-head" class />
+
+          </div>
+
+          <!-- Section 4: Equipment and Machinery -->
+          <div class="card">
+            <div class="card-header bg-success text-white">
+              <h2>Equipment and Machinery</h2>
+            </div>
+            <div class="card-body">
+              <div class="form-group">
+                <label for="equipment-list">Equipment/Machinery List:</label>
+                <textarea id="equipment-list" name="equipment-list" class="form-control"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="total-value">Total Value:</label>
+                <input type="number" id="total-value" name="total-value" class="form-control">
+              </div>
+            </div>
+          </div>
+
+          <!-- Section 5: Farm Structures -->
+          <div class="card">
+            <div class="card-header bg-success text-white">
+              <h2>Farm Structures</h2>
+            </div>
+            <div class="card-body">
+              <div class="form-group">
+                <label for="farm-structures-list">Farm Structures List:</label>
+                <textarea id="farm-structures-list" name="farm-structures-list" class="form-control"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="total-value-structures">Total Value:</label>
+                <input type="number" id="total-value-structures" name="total-value-structures" class="form-control">
+              </div>
+            </div>
+          </div>
+
+          <!-- Section 6: Loss History -->
+          <div class="card">
+            <div class="card-header bg-success text-white">
+              <h2>Loss History</h2>
+            </div>
+            <div class="card-body">
+              <div class="form-group">
+                <label for="loss-history">Have you experienced any losses in the past 5 years?</label>
+                <input type="radio" id="loss-history-yes" name="loss-history" value="yes">
+                <label for="loss-history-yes">Yes</label>
+                <input type="radio" id="loss-history-no" name="loss-history" value="no">
+                <label for="loss-history-no">No</label>
+              </div>
+              <div class="form-group">
+                <label for="loss-details">If yes, please provide details:</label>
+                <textarea id="loss-details" name="loss-details" class="form-control"></textarea>
+              </div>
+            </div>
+          </div>
+
+          <!-- Section 7: Coverage Options -->
+          <div class="card">
+            <div class="card-header bg-success text-white">
+              <h2>Coverage Options</h2>
+            </div>
+            <div class="card-body">
+              <div class="form-group">
+                <label for="coverage-options">Select coverage options:</label>
+                <input type="checkbox" id="crop-insurance" name="coverage-options" value="crop-insurance">
+                <label for="crop-insurance">Crop Insurance</label>
+                <input type="checkbox" id="livestock-insurance" name="coverage-options" value="livestock-insurance">
+                <label for="livestock-insurance">Livestock Insurance</label>
+                <input type="checkbox" id="equipment-insurance" name="coverage-options" value="equipment-insurance">
+                <label for="equipment-insurance">Equipment/Machinery Insurance</label>
+                <input type="checkbox" id="farm-structures-insurance" name="coverage-options" value="farm-structures-insurance">
+                <label for="farm-structures-insurance">Farm Structures Insurance</label>
+                <input type="checkbox" id="liability-insurance" name="coverage-options" value="liability-insurance">
+                <label for="liability-insurance">Liability Insurance</label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Section 8: Authorization -->
+          <div class="card">
+            <div class="card-header bg-success text-white">
+              <h2>Authorization</h2>
+            </div>
+            <div class="card-body">
+              <div class="form-group">
+                <label for="authorization">I authorize [Company Name] to collect and verify the information provided in this application.</label>
+                <input type="checkbox" id="authorization" name="authorization">
+              </div>
+              <div class="form-group">
+                <label for="signature">Signature:</label>
+                <input type="text" id="signature" name="signature" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" class="form-control">
+              </div>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-success">Submit</button>
+    </form </div>
+
+</body>
+
+</html>
